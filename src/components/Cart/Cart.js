@@ -21,7 +21,7 @@ const Cart = (props) => {
     const tax =Math.round(total / 10);
     const grandTotal = (total + shipping + Number(tax)).tofixed
     const formatNumber = num =>{
-        const precision = num.tofixed(2);
+        const precision = num 
         return Number(precision);
     }
     return (
